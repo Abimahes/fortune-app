@@ -1,0 +1,9 @@
+<div class="home-container">
+    <div class="fortune-card">
+      <h2>Hello {{ username }} 👋</h2>
+      <h3>🔮 Fortune of the Day</h3>
+      <p>{{ fortuneMessage }}</p>
+      <button (click)="generateFortune()">Get Another Fortune</button>
+    </div>
+  </div>
+  <button (click)="logout()">Logout</button>
